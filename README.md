@@ -21,8 +21,6 @@ While many people start with a single node, Proxmox VE can scale out to
 a large set of clustered nodes. The cluster stack is fully integrated
 and ships with the default installation.
 
-::: variablelist
-
 [ Unique Multi-Master Design ]{.term}
 :   The integrated web-based management interface gives you a clean
     overview of all your KVM guests and Linux containers and even of
@@ -95,7 +93,6 @@ cluster have direct access to VM disk images.
 
 We currently support the following Network storage types:
 
-::: itemizedlist
 -   LVM Group (network backing with iSCSI targets)
 -   iSCSI target
 -   NFS Share
@@ -103,25 +100,13 @@ We currently support the following Network storage types:
 -   Ceph RBD
 -   Directly use iSCSI LUNs
 -   GlusterFS
-:::
 
 Local storage types supported are:
 
-::: itemizedlist
 -   LVM Group (local backing devices like block devices, FC devices,
     DRBD, etc.)
 -   Directory (storage on existing filesystem)
 -   ZFS
-:::
-::::::::
-
-[]{#ch01s03.html}
-
-:::::: section
-::::: titlepage
-<div>
-
-<div>
 
 # 1.3. Integrated Backup and Restore
 
@@ -181,7 +166,6 @@ office environments or for virtual private and public clouds.
 
 HCI provides the following advantages:
 
-::: itemizedlist
 -   Scalability: seamless expansion of compute, network and storage
     devices (i.e. scale up servers and storage quickly and independently
     from each other).
@@ -201,7 +185,6 @@ hyper-converged storage infrastructure. You can, for example, deploy and
 manage the following two storage technologies by using the web interface
 only:
 
-::: itemizedlist
 -   [**Ceph**]{.strong}: a both self-healing and self-managing shared,
     reliable and highly scalable storage system. Checkout [how to manage
     Ceph services on Proxmox VE
@@ -211,7 +194,6 @@ only:
     RAID modes, fast and cheap snapshots - among other features. Find
     out [how to leverage the power of ZFS on Proxmox VE
     nodes](#ch03s09.html "3.9. ZFS on Linux"){.link}.
-:::
 
 Besides above, Proxmox VE has support to integrate a wide range of
 additional storage technologies. You can find out about them in the
@@ -240,7 +222,6 @@ core infrastructure independent from a single vendor.
 
 # 1.9. Your benefits with Proxmox VE 
 
-::: itemizedlist
 -   Open source software
 -   No vendor lock-in
 -   Linux kernel
@@ -272,15 +253,12 @@ information.
 This is a fast way to communicate with the Proxmox VE community via
 email.
 
-::: itemizedlist
 -   Mailing list for users: [Proxmox VE User
     List](http://lists.proxmox.com/cgi-bin/mailman/listinfo/pve-user){.ulink}
-:::
 
 Proxmox VE is fully open source and contributions are welcome! The
 primary communication channel for developers is the:
 
-::: itemizedlist
 -   Mailing list for developers: [Proxmox VE development
     discussion](http://lists.proxmox.com/cgi-bin/mailman/listinfo/pve-devel){.ulink}
 
